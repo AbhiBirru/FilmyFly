@@ -58,7 +58,7 @@ const Login = () => {
   return (
     <div className="w-full flex  flex-col mt-4 items-center">
       <h1 className="text-xl font-bold">Login</h1>
-      <div className="p-2 w-1/3">
+      <div className="p-2 w-full md:w-1/3">
         <div className="relative">
           <label for="message" className="leading-7 text-sm text-gray-300">
             Mobile no.
@@ -74,7 +74,7 @@ const Login = () => {
         </div>
       </div>
 
-      <div className="p-2 w-1/3">
+      <div className="p-2 w-full md:w-1/3">
         <div className="relative">
           <label for="message" className="leading-7 text-sm text-gray-300">
             Password
@@ -88,7 +88,7 @@ const Login = () => {
           />
         </div>
       </div>
-      <div className="p-2 w-full">
+      <div className="p-2 w-full md:w-1/3">
         <button
           onClick={login}
           className="flex mx-auto text-white bg-green-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-700 rounded text-lg"

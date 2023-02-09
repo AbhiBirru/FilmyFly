@@ -119,7 +119,7 @@ const Signup = () => {
         </>
       ) : (
         <>
-          <div className="p-2 w-1/3">
+          <div className="p-2 w-full md:w-1/3">
             <div className="relative">
               <label for="message" className="leading-7 text-sm text-gray-300">
                 Name
@@ -133,7 +133,7 @@ const Signup = () => {
               />
             </div>
           </div>
-          <div className="p-2 w-1/3">
+          <div className="p-2 w-full md:w-1/3">
             <div className="relative">
               <label for="message" className="leading-7 text-sm text-gray-300">
                 Mobile no.
@@ -149,7 +149,7 @@ const Signup = () => {
             </div>
           </div>
 
-          <div className="p-2 w-1/3">
+          <div className="p-2 w-full md:w-1/3">
             <div className="relative">
               <label for="message" className="leading-7 text-sm text-gray-300">
                 Password
@@ -164,7 +164,7 @@ const Signup = () => {
               />
             </div>
           </div>
-          <div className="p-2 w-full">
+          <div className="p-2 w-full md:w-1/3">
             <button
               onClick={requestOtp}
               className="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
